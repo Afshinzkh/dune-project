@@ -60,14 +60,6 @@ echo "CMAKE_FLAGS=\"
 -DCMAKE_INSTALL_PREFIX='$path_input'
 \"" > debug.opts
 
-git submodule add https://gitlab.dune-project.org/pdelab/dune-pdelab.git
-git submodule add https://gitlab.dune-project.org/pdelab/dune-typetree.git
-git submodule add https://gitlab.dune-project.org/extensions/dune-alugrid.git
-git submodule add https://gitlab.dune-project.org/core/dune-common.git
-git submodule add https://gitlab.dune-project.org/core/dune-istl.git
-git submodule add https://gitlab.dune-project.org/core/dune-geometry.git
-git submodule add https://gitlab.dune-project.org/core/dune-grid.git
-git submodule add https://gitlab.dune-project.org/core/dune-localfunctions.git
 git submodule update --init
 
 ./dune-common/bin/dunecontrol --opts=debug.opts --builddir=$(pwd)/debug-build all
