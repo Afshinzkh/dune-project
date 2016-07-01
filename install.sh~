@@ -60,7 +60,6 @@ echo "CMAKE_FLAGS=\"
 -DCMAKE_INSTALL_PREFIX='$path_input'
 \"" > debug.opts
 
-git submodule update --init
 
 ./dune-common/bin/dunecontrol --opts=debug.opts --builddir=$(pwd)/debug-build all
 
