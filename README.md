@@ -15,6 +15,8 @@ This Project installs a dune project which solves the nonlinear heat equation us
 
 #Installation
 The file install.sh is basically doing all the job, <br />
+The latest version of all the requiered modules will be downloded from the git repository. There might be slight chance that the versions of 
+git modules will not fit the dune-heat module. in this case you have to download version 2.4 from dune-project manually.
 -- first you need to have an internet connection since it needs to download
 the external dependencies.<br />
 -- the installation will ask you for an absolute path for the installation of dune,<br />
