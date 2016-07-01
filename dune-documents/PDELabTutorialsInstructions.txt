@@ -1,0 +1,23 @@
+Notes for installing the Dune Course 2016:
+
+- You need a Linux distribution with a recent compiler (GCC 5 recommended, GCC 4.9 might work).
+  We use Fedora 23.
+
+- You need the following packages installed: gcc, g++, gfortran, cmake (at least cmake 3.2), make, MPI, texlive-full,
+  gnuplot, doxygen, graphviz, paraview (for visualization), inkscape, blas, lapack, gmp, superlu
+
+  (Hopefully this list is exhaustive).
+  For all of the libraries like MPI, blas etc. you also need the -devel packages with the headers.
+
+- Clone the Git repository for the course by entering the command: git clone https://gitlab.dune-project.org/dune-course/iwr-course-2016.git
+- Enter the iwr-course-2016 directory
+- Run ./install.sh
+- The script will build a debug and a release version of the modules into the subdirectories release-build/ and
+  debug-build/
+- The actual sources are in dune/
+- The documentation of the tutorials can be found in release-build/dune-pdelab-tutorials/tutorial*/doc
+- The source code of the tutorials can be found in release-build/dune-pdelab-tutorials/tutorial*/src
+
+
+
+
