@@ -22,13 +22,12 @@ the external dependencies.
 -- after installtion, the executable file is in: debug-build/dune-heat/src/
 
 #Documentation
--- The mathematics behind is available at the dune-documents folder, these are some parts of the dune-pdelab course held in march2016
+The mathematics behind is available at the dune-documents folder, these are some parts of the dune-pdelab course held in march2016
 at iwr. I just add the related documents to dune-heat, although the whole course is not available here.
--- Tutorial03.pdf describes the heat equation but since it is kind of dependant on tutorial00 and tutorial01 I added those files which might helpful.
 
 #More
 -- if you want to get the whole course it is available online.
-	you can follow the instructions in dune-documents/PDELabTutorialsInstructions.txt
+you can follow the instructions in dune-documents/PDELabTutorialsInstructions.txt
 
 -- for more questions you can contact the dune-pdelab community in the following mailing list:
 	http://lists.dune-project.org/mailman/listinfo/dune-pdelab
